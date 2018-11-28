@@ -208,12 +208,5 @@ button:hover {
     </div>
   </div>
 </form>
-
-<?php
-include "connect.php";
-$conn=OpenCon()
-if(isset($_POST['submit'])){
-
-} ?>
-
 </body>
+</html>
