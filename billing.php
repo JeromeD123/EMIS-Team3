@@ -369,7 +369,7 @@ label {
             <h1>Account Balance:</h1>
             <p>$0.00</p>
             <hr>
-            <h3>If you wish to make a payment, you may do so below.</h3>
+            <h4><strong>Make a Payment:</h4>
             <p><div id="card-success" class="hidden">
                 <i class="fa fa-check"></i>
                 <p>Payment Successful!</p>
