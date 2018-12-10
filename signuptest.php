@@ -134,7 +134,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             <div class="form-group">
                 <input type="submit" class="btn btn-primary" value="Submit">
                 <input type="reset" class="btn btn-default" value="Reset">
-            </div>
+	    </div>
+		<p>By creating an account, you agree to our <a href="terms.php">Terms and Conditions</a>.</p>
             <p>Already have an account? <a href="SignIn.php">Login here</a>.</p>
         </form>
     </div>

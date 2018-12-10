@@ -103,5 +103,26 @@
         Today is 12/3/2018
     </p>
 </div>
+<div id="myOverlay" class="overlay">
+	<span class="closebtn" onclick="closeSearch()" title="Close Overlay">x</span>
+	<div class="overlay-content">
+		<form action="/nurse.php">
+			<input type="text" placeholder="Search.." name="search">
+			<button type="submit"><i class="fa fa-search"></i></button>
+		</form>
+	</div>
+</div>
+<h2>Fullscreen Search</h2>
+<button class="openBtn" onclick="openSearch()">Open Search Box</button>
+
+<script>
+function openSearch() {
+	document.getElementById("myOverlay").style.display = "block";
+}
+
+function closeSearch(){
+	document.getElementById("myOverlay").style.display = "none";
+}
+</script>
 </body>
 </html>

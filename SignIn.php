@@ -81,8 +81,8 @@ button:hover {
 	</center>
     <hr>
 
-    <label for="email"><b>Email</b></label>
-    <input type="text" placeholder="Enter Email" name="email" required>
+    <label for="email"><b>UserName</b></label>
+    <input type="text" placeholder="Enter UserName" name="username" required>
 
     <label for="psw"><b>Password</b></label>
     <input type="password" placeholder="Enter Password" name="psw" required>
@@ -95,5 +95,4 @@ button:hover {
     </div>
   </div>
 </form>
-
 </body>
