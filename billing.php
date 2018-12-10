@@ -8,64 +8,104 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <style>
-    /* Remove the navbar's default margin-bottom and rounded borders */
-    .navbar {
-      margin-bottom: 0;
-      border-radius: 0;
-    }
+        html, body {
+        	width: 100%;
+        	height: 100%;
+        	font-family: "Helvetica Neue", Helvetica, sans-serif;
+        	color: #444;
+        	-webkit-font-smoothing: antialiased;;
+    	}
+        .container{
+            width: 90%;
+            margin: 0 auto;
+        }
 
-    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
-    .row.content {height: 450px}
+        header{
+            background: #E0F0E2;
+        }
 
-    /* Set gray background color and 100% height */
-    .sidenav {
-      padding-top: 20px;
-      background-color: #E0F0E2;
-      height: 100%;
-    }
+        header::after{
+            content: '';
+            display: table;
+            clear: both;
+        }
 
-    /* Set black background color, white text and some padding */
-    footer {
-      background-color: #E0F0E2;
-      color: white;
-      padding: 15px;
-    }
+        .logo{
+            color: dimgrey;
+            float: left;
+            font-size: 30px;
+            padding: 10px 0;
+        }
 
-    /* On small screens, set height to 'auto' for sidenav and grid */
-    @media screen and (max-width: 767px) {
-      .sidenav {
-        height: auto;
-        padding: 15px;
-      }
-      .row.content {height:auto;}
-    }
+        nav{
+            float: right;
+        }
+
+        nav ul{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        nav li{
+            display: inline-block;
+            margin-left: 70px;
+            padding-top: 20px;
+
+            position: relative;
+        }
+
+        nav a {
+            color: dimgrey;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+
+        nav a:hover{
+            color: black;
+        }
+
+        nav a::before{
+            content: '';
+            display:  block;
+            height: 5px;
+            background-color: dimgrey;
+
+            position: absolute;
+            top: 0;
+            width: 0;
+
+            transition: all ease-in-out 200ms;
+        }
+
+        nav a:hover::before{
+            width: 100%;
+        }
+
   </style>
-</head>
+    <head>
+        <title>Billing</title>
+    </head>
 <body>
 
-<nav class="navbar navbar-inverse">
-    <div class="container-fluid">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">EMIS</a>
-        </div>
-        <div class="collapse navbar-collapse" id="myNavbar">
-            <ul class="nav navbar-nav">
+<body>
+<header>
+
+    <div class="container">
+        <a href="patientDash.html" class="logo">EMIS</a>
+
+        <nav>
+            <ul>
                 <li><a href="patientDash.html">Home</a></li>
-                <li><a href="#">Make Appointment</a></li>
+                <li><a href="#">My Account</a></li>
+                <li><a href="#">Make Appointent</a></li>
                 <li><a href="#">Records</a></li>
-                <li class="active"><a href="10.100.118.103/billing">Billing</a></li>
+                <li><a href="billing.html">Billing</a></li>
+                <li><a href="#">Logout</a></li>
             </ul>
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
-            </ul>
-        </div>
+        </nav>
     </div>
-</nav>
+</header>
 
 <div class="container-fluid text-center">
     <div class="row content">
@@ -73,7 +113,7 @@
         </div>
         <div class="col-sm-8 text-left">
             <h1>Account Balance:</h1>
-            <p>(retrieve account balance)</p>
+            <p>$0.00</p>
             <hr>
             <h3>If you wish to make a payment, you may do so below.</h3>
             <p><div id="card-success" class="hidden">
@@ -89,7 +129,7 @@
                 <div id="card-front">
                     <div id="shadow"></div>
                     <div id="image-container">
-                        <span id="amount">paying: <strong>(account balance)</strong></span>
+                        <span id="amount">paying: <strong>$0.00</strong></span>
                         <span id="card-image">
 
         </span>
@@ -149,3 +189,6 @@
 
 </body>
 </html>
+
+
+
