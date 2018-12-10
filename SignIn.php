@@ -88,10 +88,10 @@ button:hover {
     <input type="password" placeholder="Enter Password" name="psw" required>
 
 		<div class="clearfix">
-			<center>
+	<center>
       <button type="button" class="cancelbtn">New User? Sign Up</button>
       <button type="submit" class="signupbtn">Sign In</button>
-		</center>
+	</center>
     </div>
   </div>
 </form>
