@@ -1,5 +1,5 @@
 <?php
-	define('DB_SERVER', '10.100.118.103');
+	define('DB_SERVER', 'localhost');
 	define('DB_USERNAME', 'root');
 	define('DB_PASSWORD', 'software2018');
 	define('DB_NAME', 'EMIS');
