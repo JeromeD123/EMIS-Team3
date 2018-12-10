@@ -1,86 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
+<style>
+        html, body {
+        	width: 100%;
+        	height: 100%;
+        	font-family: "Helvetica Neue", Helvetica, sans-serif;
+        	color: #444;
+        	-webkit-font-smoothing: antialiased;;
+    	}
+        .container{
+            width: 90%;
+            margin: 0 auto;
+        }
+
+        header{
+            background: #E0F0E2;
+        }
+
+        header::after{
+            content: '';
+            display: table;
+            clear: both;
+        }
+
+        .logo{
+            color: dimgrey;
+            float: left;
+            font-size: 30px;
+            padding: 10px 0;
+        }
+
+        nav{
+            float: right;
+        }
+
+        nav ul{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        nav li{
+            display: inline-block;
+            margin-left: 70px;
+            padding-top: 20px;
+
+            position: relative;
+        }
+
+        nav a {
+            color: dimgrey;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+
+        nav a:hover{
+            color: black;
+        }
+
+        nav a::before{
+            content: '';
+            display:  block;
+            height: 5px;
+            background-color: dimgrey;
+
+            position: absolute;
+            top: 0;
+            width: 0;
+
+            transition: all ease-in-out 200ms;
+        }
+
+        nav a:hover::before{
+            width: 100%;
+        }
+
+
+    </style>
+
 <head>
-    <title>EMIS Patient</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <style>
-    /* Remove the navbar's default margin-bottom and rounded borders */
-    .navbar {
-      margin-bottom: 0;
-      border-radius: 0;
-    }
-
-    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
-    .row.content {height: 450px}
-
-    /* Set gray background color and 100% height */
-    .sidenav {
-      padding-top: 20px;
-      background-color: #E0F0E2;
-      height: 100%;
-    }
-
-    /* Set black background color, white text and some padding */
-    footer {
-      background-color: #E0F0E2;
-      color: white;
-      padding: 15px;
-    }
-
-    /* On small screens, set height to 'auto' for sidenav and grid */
-    @media screen and (max-width: 767px) {
-      .sidenav {
-        height: auto;
-        padding: 15px;
-      }
-      .row.content {height:auto;}
-    }
-  </style>
+    <title>Patient Home</title>
 </head>
-<body>
 
-<nav class="navbar navbar-inverse">
-    <div class="container-fluid">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">EMIS</a>
-        </div>
-        <div class="collapse navbar-collapse" id="myNavbar">
-            <ul class="nav navbar-nav">
-                <li class="active"><a href="10.100.118.103/patientDash">Home</a></li>
-                <li><a href="10.100.118.103">Make Appointment</a></li>
+<body>
+<header>
+
+    <div class="container">
+        <a href="patientDash.html" class="logo">EMIS</a>
+
+        <nav>
+            <ul>
+                <li><a href="patientDash.html">Home</a></li>
+                <li><a href="#">My Account</a></li>
+                <li><a href="#">Make Appointent</a></li>
                 <li><a href="#">Records</a></li>
                 <li><a href="billing.html">Billing</a></li>
+                <li><a href="#">Logout</a></li>
             </ul>
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
-            </ul>
-        </div>
+        </nav>
     </div>
-</nav>
+</header>
+</body>
 
 <div class="container-fluid text-center">
     <div class="row content">
-        <div class="col-sm-2 sidenav">
-            <p><a href="#">My Account</a></p>
-        </div>
         <div class="col-sm-8 text-left">
-            <h1>Welcome back, user</h1>
+            <h1>Welcome back, John!</h1>
             <p>The Electronic Medical Information System is made to help you manage your account easier!
             If you wish to edit your personal infromation, you can find it under 'My Account'. Other options
-            include making an appointment, viewing your records, and seting up your billing information. We
-            hope you enjoy rhis new experience!</p>
-            <hr>
-            <h3>Test</h3>
-            <p>Aditional options, disclaimers...</p>
+            include making an appointment, viewing your records, and paying towards your balance. We
+            hope you enjoy this new experience!</p>
         </div>
         <div class="col-sm-2 sidenav">
         </div>
