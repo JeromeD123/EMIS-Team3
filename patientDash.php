@@ -1,4 +1,5 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <style>
         html, body {
         	width: 100%;
@@ -74,34 +75,50 @@
             width: 100%;
         }
 
+
     </style>
 
 <head>
-    <title>NavBase</title>
+    <title>Patient Home</title>
 </head>
+
 <body>
 <header>
 
     <div class="container">
-        <a href="#" class="logo">EMIS</a>
+        <a href="10.100.118.103/patientDash.php" class="logo">EMIS</a>
 
         <nav>
             <ul>
-                <li><a href="#">Appointments</a></li>
-                <li><a href="#">Pay Bill</a></li>
-                <li><a href="#">View Info</a></li>
-                <li><a href="#">Edit Info</a></li>
-                <li><a href="#">Logout</a></li>
+                <li><a href="10.100.118.103/patientDash.php">Home</a></li>
+                <li><a href="10.100.118.103/patientInfo.php">My Account</a></li>
+                <li><a href="10.100.118.103/bookAppointment.php">Make Appointent</a></li>
+                <li><a href="#">Records</a></li>
+                <li><a href="10.100.118.103/billing.php">Billing</a></li>
+                <li><a href="10.100.118.103/SignIn.php">Logout</a></li>
             </ul>
         </nav>
     </div>
 </header>
-<div class="center" style="background-color:#ddd;">
-    <h2> WELCOME John Doe</h2>
-    <p>
-        Today is 12/3/2018
-        you have no appointments schedule for today.
-    </p>
+</body>
+
+<div class="container-fluid text-center">
+    <div class="row content">
+        <div class="col-sm-8 text-left">
+            <h1>Welcome back, John!</h1>
+            <h3>The Electronic Medical Information System is made to help you manage your account easier!
+            If you wish to edit your personal infromation, you can find it under 'My Account'. Other options
+            include making an appointment, viewing your records, and paying towards your balance. We
+            hope you enjoy this new experience!</h3>
+        </div>
+        <div class="col-sm-2 sidenav">
+        </div>
+    </div>
 </div>
+
+<footer class="container-fluid text-center">
+    <h4>For any additional information, please contact us!</h4>
+</footer>
+
 </body>
 </html>

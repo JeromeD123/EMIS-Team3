@@ -82,6 +82,7 @@
         <a href="#" class="logo">EMIS</a>
         <nav>
             <ol>
+                <li><a href="#">patient Notes</a></li>
                 <li><a href="#">Receipt</a></li>
                 <li><a href="#">Records</a></li>
                 <li><a href="#">Upload Files</a></li>
@@ -92,7 +93,7 @@
     </div>
 </header>
 <div class="center" style="background-color:#ddd;">
-    <h2> WELCOME Receptionist</h2>
+    <h2> WELCOME Doctor</h2>
     <p>
         Today is 12/12/2018
     </p>
