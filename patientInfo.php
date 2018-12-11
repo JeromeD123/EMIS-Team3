@@ -123,11 +123,12 @@
 
         <nav>
             <ul>
-                <li><a href="#">Appointments</a></li>
-                <li><a href="#">Pay Bill</a></li>
-                <li><a href="#">View Info</a></li>
-                <li><a href="#">Edit Info</a></li>
-                <li><a href="#">Logout</a></li>
+                <li><a href="10.100.118.103/patientDash.php">Home</a></li>
+                <li><a href="10.100.118.103/patientInfo.php">My Account</a></li>
+                <li><a href="10.100.118.103/bookAppointment.php">Make Appointent</a></li>
+                <li><a href="#">Records</a></li>
+                <li><a href="10.100.118.103/billing.php">Billing</a></li>
+                <li><a href="10.100.118.103/SignIn.php">Logout</a></li>
             </ul>
         </nav>
     </div>
