@@ -87,7 +87,7 @@
 			</style>
 
 	<head>
-			<title>NavBase</title>
+			<title>New User</title>
 	</head>
 
 	<body>
@@ -200,11 +200,11 @@ button:hover {
 			<label for="psw-repeat"><b>Repeat Password</b></label>
 			<input type="password" placeholder="Repeat Password" name="psw-repeat" required>
 
-			<p>By creating an account you agree to our <a href="/terms.ehp" style="color:dodgerblue">Terms & Conditions</a>.</p>
+			<p>By creating an account you agree to our <a href="/terms.php" style="color:dodgerblue">Terms & Conditions</a>.</p>
 
 			<div class="clearfix">
-				<button type="button" class="cancelbtn">Cancel</button>
-				<button type="submit" class="signupbtn">Sign Up</button>
+				<button type="button" class="cancelbtn"<a href="SignUp.php">>Cancel</a></button>
+				<button type="submit" class="signupbtn"><a href="patientDash.php"i>Sign Up</a></button>
 			</div>
 		</div>
 	</form>

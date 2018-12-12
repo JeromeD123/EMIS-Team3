@@ -350,12 +350,12 @@ label {
 
         <nav>
             <ul>
-                <li><a href="10.100.118.103/patientDash.php">Home</a></li>
-                <li><a href="10.100.118.103/patientInfo.php">My Account</a></li>
-                <li><a href="10.100.118.103/bookAppointment.php">Make Appointent</a></li>
+                <li><a href="patientDash.php">Home</a></li>
+                <li><a href="patientInfo.php">My Account</a></li>
+                <li><a href="bookAppointment.php">Make Appointent</a></li>
                 <li><a href="#">Records</a></li>
-                <li><a href="10.100.118.103/billing.php">Billing</a></li>
-                <li><a href="10.100.118.103/SignIn.php">Logout</a></li>
+                <li><a href="billing.php">Billing</a></li>
+                <li><a href="SignIn.php">Logout</a></li>
             </ul>
         </nav>
     </div>
@@ -439,9 +439,3 @@ label {
 
 </body>
 </html>
-<<<<<<< HEAD
-=======
-
-
-
->>>>>>> d35c28ab34eb0a21246e09d528b09cbb744e7d44

@@ -89,8 +89,8 @@ button:hover {
 
 		<div class="clearfix">
 	<center>
-      <button type="button" class="cancelbtn">New User? Sign Up</button>
-      <button type="submit" class="signupbtn">Sign In</button>
+      <button type="button" class="cancelbtn"><a href="signup.php">New User? Sign Up</button>
+      <button type="submit" class="signupbtn"><a href="patientDash.php">Sign In</button>
 	</center>
     </div>
   </div>

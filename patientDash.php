@@ -86,16 +86,16 @@
 <header>
 
     <div class="container">
-        <a href="10.100.118.103/patientDash.php" class="logo">EMIS</a>
+        <a href="patientDash.php" class="logo">EMIS</a>
 
         <nav>
             <ul>
-                <li><a href="10.100.118.103/patientDash.php">Home</a></li>
-                <li><a href="10.100.118.103/patientInfo.php">My Account</a></li>
-                <li><a href="10.100.118.103/bookAppointment.php">Make Appointent</a></li>
+                <li><a href="patientDash.php">Home</a></li>
+                <li><a href="patientInfo.php">My Account</a></li>
+                <li><a href="bookAppointment.php">Make Appointent</a></li>
                 <li><a href="#">Records</a></li>
-                <li><a href="10.100.118.103/billing.php">Billing</a></li>
-                <li><a href="10.100.118.103/SignIn.php">Logout</a></li>
+                <li><a href="billing.php">Billing</a></li>
+                <li><a href="SignIn.php">Logout</a></li>
             </ul>
         </nav>
     </div>
@@ -109,7 +109,8 @@
             <h3>The Electronic Medical Information System is made to help you manage your account easier!
             If you wish to edit your personal infromation, you can find it under 'My Account'. Other options
             include making an appointment, viewing your records, and paying towards your balance. We
-            hope you enjoy this new experience!</h3>
+	    hope you enjoy this new experience!</h3>
+	    <h4> Today is December 12th. You have no appointments today!</h4>
         </div>
         <div class="col-sm-2 sidenav">
         </div>
@@ -117,12 +118,8 @@
 </div>
 
 <footer class="container-fluid text-center">
-    <h4>For any additional information, please contact us!</h4>
+    <h5>For any additional information, please contact us!</h5>
 </footer>
 
 </body>
 </html>
-<<<<<<< HEAD
-=======
-
->>>>>>> d35c28ab34eb0a21246e09d528b09cbb744e7d44
