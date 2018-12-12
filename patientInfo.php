@@ -1,7 +1,4 @@
 
-
-
-
 <!DOCTYPE html>
 
 <html>
@@ -126,9 +123,15 @@
                 <li><a href="patientDash.php">Home</a></li>
                 <li><a href="patientInfo.php">My Account</a></li>
                 <li><a href="bookAppointment.php">Make Appointent</a></li>
+<<<<<<< HEAD
                 <li><a href="#">Records</a></li>
                 <li><a href="billing.php">Billing</a></li>
                 <li><a href="SignIn.php">Logout</a></li>
+=======
+                <li><a href="patientRecords.php">Records</a></li>
+                <li><a href="billing.php">Billing</a></li>
+                <li><a href="10.100.118.103/SignIn.php">Logout</a></li>
+>>>>>>> 678991f1d1c0231ddfd252979cf3a853feb79f69
             </ul>
         </nav>
     </div>
@@ -509,12 +512,6 @@
                             </div>
                         </div>
                     </div>
-                </fieldset>
-                <fieldset style="background: #E0F0E2;">
-                <legend>Doctor notes:</legend>
-                <div id="Doctor Notes" class="form-field">
-                    <div class="Note">This is the note for John Doe</div>
-                </div>
                 </fieldset>
 
                 <div class="form-group">
