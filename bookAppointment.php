@@ -11,20 +11,20 @@
             width: 90%;
             margin: 0 auto;
         }
-        
+
         header{
             background: #E0F0E2;
         }
-        
+
         header::after{
             content: '';
             display: table;
             clear: both;
         }
-        
+
         div.container4 {
             height: 10em;
-            position: relative 
+            position: relative
         }
         div.container4 p {
             margin: 0;
@@ -32,61 +32,61 @@
             top: 20%;
             left: 50%;
             margin-right: -50%;
-            transform: translate(-50%, -50%) 
+            transform: translate(-50%, -50%)
         }
-        
+
         .logo{
             color: dimgrey;
             float: left;
             font-size: 30px;
             padding: 10px 0;
         }
-        
+
         nav{
             float: right;
         }
-        
+
         nav ul{
             margin: 0;
             padding: 0;
             list-style: none;
         }
-        
+
         nav li{
             display: inline-block;
             margin-left: 70px;
             padding-top: 20px;
-            
+
             position: relative;
         }
-        
+
         nav a {
             color: dimgrey;
             text-decoration: none;
             text-transform: uppercase;
         }
-        
+
         nav a:hover{
             color: black;
         }
-        
+
         nav a::before{
             content: '';
             display:  block;
             height: 5px;
             background-color: dimgrey;
-            
+
             position: absolute;
             top: 0;
             width: 0;
-            
+
             transition: all ease-in-out 200ms;
         }
-        
+
         nav a:hover::before{
             width: 100%;
         }
-        
+
         * {box-sizing: border-box;}
         ul {list-style-type: none;}
         body {font-family: Verdana, sans-serif;}
@@ -168,25 +168,25 @@
         @media screen and (max-width: 290px) {
             .weekdays li, .days li {width: 12.2%;}
         }
-        
+
     </style>
 
     <head>
 		<title>Make Appointment</title>
 	</head>
-    
+
     <body>
     <header>
-        
+
         <div class="container">
             <a href="patientDash.php" class="logo">EMIS</a>
-            
+
             <nav>
                 <ul>
                     <li><a href="patientDash.php">Home</a></li>
                     <li><a href="patientInfo.php">My Account</a></li>
                     <li><a href="bookAppointment.php">Make Appointent</a></li>
-                    <li><a href="#">Records</a></li>
+                    <li><a href="patientRecords.php">Records</a></li>
                     <li><a href="billing.php">Billing</a></li>
                     <li><a href="SignIn.php">Logout</a></li>
                 </ul>
@@ -196,7 +196,7 @@
         <div class=container4>
           <p>Book Appointment
         </div>
-        <div class="month">      
+        <div class="month">
           <ul>
             <li class="prev">&#10094;</li>
             <li class="next">&#10095;</li>
@@ -217,7 +217,7 @@
           <li>Su</li>
         </ul>
 
-        <ul class="days">  
+        <ul class="days">
           <li>1</li>
           <li>2</li>
           <li>3</li>

@@ -116,16 +116,16 @@
 <header>
 
     <div class="container">
-        <a href="#" class="logo">EMIS</a>
+        <a href="patientDash.php" class="logo">EMIS</a>
 
         <nav>
             <ul>
                 <li><a href="patientDash.php">Home</a></li>
                 <li><a href="patientRecords.php">My Account</a></li>
                 <li><a href="bookAppointment.php">Make Appointent</a></li>
-                <li><a href="patinetRecords.php">Records</a></li>
+                <li><a href="patientRecords.php">Records</a></li>
                 <li><a href="billing.php">Billing</a></li>
-                <li><a href="10.100.118.103/SignIn.php">Logout</a></li>
+                <li><a href="SignIn.php">Logout</a></li>
             </ul>
         </nav>
     </div>

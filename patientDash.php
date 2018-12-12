@@ -93,7 +93,7 @@
                 <li><a href="patientDash.php">Home</a></li>
                 <li><a href="patientInfo.php">My Account</a></li>
                 <li><a href="bookAppointment.php">Make Appointent</a></li>
-                <li><a href="#">Records</a></li>
+                <li><a href="patientRecords.php">Records</a></li>
                 <li><a href="billing.php">Billing</a></li>
                 <li><a href="SignIn.php">Logout</a></li>
             </ul>
