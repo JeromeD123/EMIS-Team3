@@ -1,7 +1,4 @@
 
-
-
-
 <!DOCTYPE html>
 
 <html>
@@ -123,11 +120,11 @@
 
         <nav>
             <ul>
-                <li><a href="10.100.118.103/patientDash.php">Home</a></li>
-                <li><a href="10.100.118.103/patientInfo.php">My Account</a></li>
-                <li><a href="10.100.118.103/bookAppointment.php">Make Appointent</a></li>
-                <li><a href="#">Records</a></li>
-                <li><a href="10.100.118.103/billing.php">Billing</a></li>
+                <li><a href="patientDash.php">Home</a></li>
+                <li><a href="patientInfo.php">My Account</a></li>
+                <li><a href="bookAppointment.php">Make Appointent</a></li>
+                <li><a href="patientRecords.php">Records</a></li>
+                <li><a href="billing.php">Billing</a></li>
                 <li><a href="10.100.118.103/SignIn.php">Logout</a></li>
             </ul>
         </nav>
@@ -509,12 +506,6 @@
                             </div>
                         </div>
                     </div>
-                </fieldset>
-                <fieldset style="background: #E0F0E2;">
-                <legend>Doctor notes:</legend>
-                <div id="Doctor Notes" class="form-field">
-                    <div class="Note">This is the note for John Doe</div>
-                </div>
                 </fieldset>
 
                 <div class="form-group">
